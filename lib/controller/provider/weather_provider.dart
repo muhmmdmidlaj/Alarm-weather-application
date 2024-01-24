@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:weather_app/api/weather_data.dart';
+import 'package:weather_app/controller/api/weather_data.dart';
 
 class WeatherProvider extends ChangeNotifier {
   var client = WeatherData();
